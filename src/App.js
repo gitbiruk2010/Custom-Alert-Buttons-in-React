@@ -1,15 +1,15 @@
-// import react to enable jsx syntax and use react features
+// importing react to enable jsx syntax and use react features
 import React from 'react';
 import './App.css';
-// define alertbutton component that accepts message and children as props
+// defining alertbutton component that accepts message and children as props
 const AlertButton = ({ message, children }) => {
-  // attach an onclick event handler to the button to display an alert with the message prop when clicked
+  // attaching an onclick event handler to the button to display an alert with the message prop when clicked
   return <button onClick={() => alert(message)}>{children}</button>;
 };
 
-// define toolbar component that renders multiple alertbutton components
+// defining toolbar component that renders multiple alertbutton components
 const Toolbar = () => {
-  // render at least two alertbutton components with different message and children props
+  // rendering at least two alertbutton components with different message and children props
   return (
     <div className="toolbar"> {/* This should apply the styling */}
       <p>Click on each buttons to see the alert message.</p>
@@ -24,7 +24,7 @@ const Toolbar = () => {
 
 // main app component that integrates the toolbar with alertbutton components
 function App() {
-  // render the toolbar component within the app's return statement, showcasing the component structure and dynamic behavior
+  // rendering the toolbar component within the app's return statement, showcasing the component structure and dynamic behavior
   return (
     <div className="App">
       <Toolbar />
