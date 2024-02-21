@@ -1,6 +1,8 @@
 # Custom-Alert-Buttons-in-React
-Introduction
+![Landing page](https://github.com/gitbiruk2010/Custom-Alert-Buttons-in-React/assets/103274295/29f7d98a-3495-4942-b30a-6adf22b292be)
+![Message 1 button and alert](https://github.com/gitbiruk2010/Custom-Alert-Buttons-in-React/assets/103274295/a7582eca-63e9-4cb9-a21a-be1fcdc66c17)
 
+Introduction
 This React application demonstrates a simple yet dynamic interaction model using components and props. It features a Toolbar component populated with AlertButton components. Each button, when clicked, displays a unique alert message, showcasing the use of props and event handling in React.
 Prerequisites
 
@@ -13,7 +15,7 @@ Installation
 
 To set up the project on your local machine, follow these steps:
 
-    Clone the repository: 
+    Clone the repository: https://github.com/gitbiruk2010/Custom-Alert-Buttons-in-React
     or download the source code.
     Navigate to the project directory in your terminal.
     Run npm install to install all the required dependencies.
@@ -30,11 +32,11 @@ Viewing the Application
 Upon running the application, you will see a toolbar with four buttons. Each button is labeled differently and, when clicked, will display an alert with a unique message. This interaction demonstrates the application's dynamic behavior through the use of React components and props.
 Features Implemented
 
-    AlertButton Component: A reusable button component that takes a message and children as props. The message prop specifies the text to display in an alert upon clicking the button, while children determine the button's visible text.
-    Toolbar Component: This component renders multiple AlertButton components, each configured with unique messages and labels.
-    Dynamic Interaction: Demonstrates how components can interact dynamically through props and event handling in React.
-    Responsive Design: The application is styled to be visually appealing, including a highlighted toolbar, spaced buttons, and a responsive layout that adjusts to screen size.
-    User Feedback: Provides immediate feedback through alert messages, enhancing the user interaction experience.
+AlertButton Component: A reusable button component that takes a message and children as props. The message prop specifies the text to display in an alert upon clicking the button, while children determine the button's visible text.
+Toolbar Component: This component renders multiple AlertButton components, each configured with unique messages and labels.
+Dynamic Interaction: Demonstrates how components can interact dynamically through props and event handling in React.
+Responsive Design: The application is styled to be visually appealing, including a highlighted toolbar, spaced buttons,      and a responsive layout that adjusts to screen size.
+User Feedback: Provides immediate feedback through alert messages, enhancing the user interaction experience.
 
 Contributing
 
